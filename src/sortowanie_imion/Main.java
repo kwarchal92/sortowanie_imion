@@ -27,6 +27,16 @@ public class Main {
         System.out.println();
         Collections.sort(lista); //sortowanie listy
 
+        System.out.println("Elementy posortowane");
 
+        for (int i = 0; i < lista.size(); i++)
+        {
+            if (i < lista.size()- 1)
+                System.out.print(lista.get(i) + ", ");
+            else
+                System.out.print(lista.get(i) + ". ");
+        }
+
+        System.out.println();
     }
 }
